@@ -6,7 +6,7 @@
           return hm.values().stream().collect(Collectors.toList());
           return new ArrayList<>(hm.values());
           
-          
+//       hasmap easy method to get rid off if else    
       char[] temp = s.toCharArray();
       Arrays.sort(temp);
       String _s = String.valueOf(temp);
